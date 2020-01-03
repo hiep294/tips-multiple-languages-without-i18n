@@ -1,0 +1,7 @@
+types which oserver can shadow compare: integer, boolean, object, string
+types which oserver can not compare: array, callback
+
+in observer(() => <List />) , observer can watch only the length of list
+observer will always watch any key of props, not only any key which is spreaded
+
+
